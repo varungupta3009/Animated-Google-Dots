@@ -43,16 +43,6 @@ body {
             animation-delay: calc(0.1875s * 4);
   }
   
-  .box {
-    display: inline-block;
-    position: absolute;
-    width: intrinsic;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0);
-            transform: translateX(-50%) translateY(-50%) translateZ(0);
-  }
-  
   @-webkit-keyframes move {
     50% {
       -webkit-transform: translateY(calc(25px / -2));
